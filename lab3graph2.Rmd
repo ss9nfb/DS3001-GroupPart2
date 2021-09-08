@@ -1,0 +1,15 @@
+---
+title: "lab3graph2"
+author: "Samarth Saxena"
+date: "9/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+weather <- read.csv('weather.csv')
+library(ggplot2)
+```
