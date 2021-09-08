@@ -16,6 +16,6 @@ bank <- read.csv('bank.csv')
 library(ggplot2)
 library(dplyr)
 
-ggplot(bank, aes(y=balance)) + geom_boxplot(color="pink")
+ggplot(bank, aes(y=balance)) + geom_boxplot(color="pink") + labs(title = "Bank Balances") + theme(plot.title = element_text(hjust = 0.5))
 ```
 
