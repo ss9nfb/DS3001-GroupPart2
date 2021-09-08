@@ -10,12 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-beaches <- read.csv('beaches.csv')
+bank <- read.csv('bank.csv')
 ```
 ```{r}
 library(ggplot2)
 library(dplyr)
 
-ggplot(beaches, aes(y=temperature)) + geom_boxplot()
+ggplot(bank, aes(y=balance)) + geom_boxplot(color="pink")
 ```
 
